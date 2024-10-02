@@ -1,12 +1,15 @@
 import React from 'react'
 
+
 import '../styles/components/header.css'
 
 const header = () => {
+
   return (
   <header>
             {/* <img src="assets/LOGO-BRANCO.png" alt=""> */}
             <ul class="nav" id="nav">
+                <strong>Sentido <br /> Fotografia</strong>
                 <li>
                     <a id="navlink" class="nav__link" target="_blank" href="vagas.html">Sobre nós</a>
                 </li>
@@ -27,7 +30,21 @@ const header = () => {
                 <span></span>
             </button>
         </header>
+        
   )
+  
 }
+    // const menu = document.getElementById('menu')
+    // const navigation = document.getElementById('nav')
+
+    // menu.addEventListener('click', ()=>{
+    //     menu.classList.toggle('active')
+    //     navigation.classList.toggle('active')
+    // })
+
+    // navigation.addEventListener('click', ()=>{
+    //     menu.classList.remove('active')
+    //     navigation.classList.remove('active')
+    // });
 
 export default header
